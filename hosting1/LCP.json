@@ -4,5 +4,16 @@
     "infra": {
       "deploy": false
     }
-  }
+  },
+  "loadBalancer": {
+    "targetPort": 80,
+    "certs": [
+      {
+        "customDomains": ["a.com"]
+      },
+      {
+        "customDomains": ["b.com"]
+      }
+    ]
+  },
 }
