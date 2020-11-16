@@ -4,10 +4,10 @@
     "targetPort": 80,
     "certs": [
       {
-        "customDomains": ["a.com", "a.com", "a.com", "a.com", "a.com"]
+        "customDomains": ["z.com", "b.com", "c.com", "d.com", "e.com"]
       },
       {
-        "customDomains": ["b.com", "a.com", "a.com", "a.com", "a.com"]
+        "customDomains": ["h.com", "g.com", "f.com", "i.com", "a.com"]
       }
     ]
   },
